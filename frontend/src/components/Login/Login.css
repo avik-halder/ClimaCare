@@ -1,0 +1,85 @@
+.login-container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: 
+      linear-gradient(to top, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 1) 100%),
+      url('../../assets/Picture1.jpg'); /* Add your image URL here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Login box styling */
+  .login-box {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent background for readability */
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #00873E !important;
+    font-weight: 700 !important;
+    text-align: center;
+    margin-bottom: 25px !important;
+  }
+  
+  /* Floating label input box */
+  .floating-label-input {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .floating-label-input input {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+    margin-bottom: 5px;
+  }
+  
+  .floating-label-input input:focus {
+    border-color: #007bff;
+    margin-bottom: 2px;
+  }
+  
+  .floating-label-input input:focus ~ label,
+  .floating-label-input input:not(:placeholder-shown) ~ label {
+    top: -10px;
+    left: 10px;
+    font-size: 14px;
+    color: #007bff;
+  }
+  
+  .floating-label-input label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #aaa;
+    pointer-events: none;
+    transition: 0.2s;
+  }
+  
+  /* Submit button */
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #00C48C;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  

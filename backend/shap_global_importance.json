@@ -1,0 +1,202 @@
+[
+  {
+    "feature": "Humidity_pct",
+    "mean_abs_shap": 0.9504906027487505
+  },
+  {
+    "feature": "cos_doy",
+    "mean_abs_shap": 0.690488431480734
+  },
+  {
+    "feature": "Temp_C",
+    "mean_abs_shap": 0.593925422427873
+  },
+  {
+    "feature": "Temp_C_lag1",
+    "mean_abs_shap": 0.5479828762477356
+  },
+  {
+    "feature": "Sunshine_hours",
+    "mean_abs_shap": 0.4144591025974446
+  },
+  {
+    "feature": "Rainfall_mm",
+    "mean_abs_shap": 0.3856839916479655
+  },
+  {
+    "feature": "Temp_C_roll3",
+    "mean_abs_shap": 0.24586950707944552
+  },
+  {
+    "feature": "Rainfall_mm_roll3",
+    "mean_abs_shap": 0.20593931300993631
+  },
+  {
+    "feature": "Humidity_pct_roll3",
+    "mean_abs_shap": 0.1791176128355751
+  },
+  {
+    "feature": "Humidity_pct_lag1",
+    "mean_abs_shap": 0.1686239923462977
+  },
+  {
+    "feature": "Rainfall_mm_lag1",
+    "mean_abs_shap": 0.12981972084081075
+  },
+  {
+    "feature": "sin_doy",
+    "mean_abs_shap": 0.12108126002554254
+  },
+  {
+    "feature": "Month",
+    "mean_abs_shap": 0.11349013061379734
+  },
+  {
+    "feature": "Station_Sylhet",
+    "mean_abs_shap": 0.08909873229520855
+  },
+  {
+    "feature": "Sunshine_hours_lag1",
+    "mean_abs_shap": 0.04112753834857144
+  },
+  {
+    "feature": "Sunshine_hours_roll3",
+    "mean_abs_shap": 0.03610779398398639
+  },
+  {
+    "feature": "Station_Bhola",
+    "mean_abs_shap": 0.023708630828560482
+  },
+  {
+    "feature": "Station_Srimangal",
+    "mean_abs_shap": 0.018914173718800234
+  },
+  {
+    "feature": "Station_Chittagong",
+    "mean_abs_shap": 0.018388760147725364
+  },
+  {
+    "feature": "Station_Dhaka",
+    "mean_abs_shap": 0.013584806484757716
+  },
+  {
+    "feature": "Station_Coxsbazar",
+    "mean_abs_shap": 0.01174527866213189
+  },
+  {
+    "feature": "Station_Ishurdi",
+    "mean_abs_shap": 0.01146592596697724
+  },
+  {
+    "feature": "Station_Rajshahi",
+    "mean_abs_shap": 0.011255298169605077
+  },
+  {
+    "feature": "Station_Dinajpur",
+    "mean_abs_shap": 0.010155413957995182
+  },
+  {
+    "feature": "Station_Teknaf",
+    "mean_abs_shap": 0.009618760815921128
+  },
+  {
+    "feature": "Station_Comilla",
+    "mean_abs_shap": 0.009238685219542629
+  },
+  {
+    "feature": "Station_Rangamati",
+    "mean_abs_shap": 0.008622813544496968
+  },
+  {
+    "feature": "Station_Rangpur",
+    "mean_abs_shap": 0.008579929965261695
+  },
+  {
+    "feature": "Station_Hatiya",
+    "mean_abs_shap": 0.00814857869585649
+  },
+  {
+    "feature": "Station_Bogra",
+    "mean_abs_shap": 0.007897709567042435
+  },
+  {
+    "feature": "Station_Feni",
+    "mean_abs_shap": 0.0062783869150332666
+  },
+  {
+    "feature": "Station_Satkhira",
+    "mean_abs_shap": 0.005682961470106025
+  },
+  {
+    "feature": "Station_Barisal",
+    "mean_abs_shap": 0.005454423812841407
+  },
+  {
+    "feature": "Station_Kutubdia",
+    "mean_abs_shap": 0.005350716597397621
+  },
+  {
+    "feature": "Station_Sitakunda",
+    "mean_abs_shap": 0.004164499024312533
+  },
+  {
+    "feature": "Station_Sandwip",
+    "mean_abs_shap": 0.003917017228487913
+  },
+  {
+    "feature": "Station_Mcourt",
+    "mean_abs_shap": 0.0038225958311607217
+  },
+  {
+    "feature": "Station_Chuadanga",
+    "mean_abs_shap": 0.0029755364751393757
+  },
+  {
+    "feature": "Station_Madaripur",
+    "mean_abs_shap": 0.0027640029392796022
+  },
+  {
+    "feature": "Station_Faridpur",
+    "mean_abs_shap": 0.002752332138991334
+  },
+  {
+    "feature": "Station_Jessore",
+    "mean_abs_shap": 0.0027371946479359736
+  },
+  {
+    "feature": "Station_Khepupara",
+    "mean_abs_shap": 0.0025432990504468036
+  },
+  {
+    "feature": "Station_Ambaganctg",
+    "mean_abs_shap": 0.002470396429914549
+  },
+  {
+    "feature": "Station_Khulna",
+    "mean_abs_shap": 0.0023174891299413106
+  },
+  {
+    "feature": "Station_Sydpur",
+    "mean_abs_shap": 0.0017982497225147367
+  },
+  {
+    "feature": "Station_Mymensingh",
+    "mean_abs_shap": 0.0016692833586074984
+  },
+  {
+    "feature": "Station_Tangail",
+    "mean_abs_shap": 0.0016075066268040252
+  },
+  {
+    "feature": "Station_Patuakhali",
+    "mean_abs_shap": 0.0012580355531974052
+  },
+  {
+    "feature": "Station_Mongla",
+    "mean_abs_shap": 0.0009509342150831072
+  },
+  {
+    "feature": "Station_Chandpur",
+    "mean_abs_shap": 0.0009250519235187677
+  }
+]

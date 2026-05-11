@@ -1,0 +1,292 @@
+.info-card h3 {
+  font-size: 24px !important;
+}
+
+.info-card h4 {
+  font-size: 26px !important;
+  font-weight: bold;
+}
+
+.icon svg {
+  width: 38px;
+  height: 38px;
+}
+
+.dashboard-container h5 {
+  font-size: 24px !important;
+  font-weight: bold;
+}
+
+label, .form-label {
+  font-size: 20px !important;
+}
+
+.modal-title {
+  font-size: 24px !important;
+}
+
+.modal-body {
+  font-size: 20px !important;
+}
+
+
+
+.dashboard-container {
+    max-width: 1200px;          /* Center container with a fixed max width */
+    width: 100%;
+    background-color: #bcffa727 !important; 
+    margin-top: -20px;
+}
+
+.graph-placeholder {
+    height: 150px;             /* Placeholder height for graphs and boxes */
+    border-radius: 8px;
+    background-color: #e9ecef; /* Light gray background for placeholders */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+  
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+    border-radius: 30px;
+    padding: 0px;
+    background-color: #fff;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.452);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info-box .label{
+    margin-bottom: 15px;
+}
+
+.temperature-box {
+    border: 4px #ff4500 solid;
+    background-color: rgba(255, 69, 0, 0.2);
+  }
+  
+  .temperature-box .icon {
+    color: #ff4500;
+  }
+  
+  .temperature-box .label {
+    font-weight: bold;
+    color: #ff4500;
+  }
+  
+  /* Humidity box styles */
+  .humidity-box {
+    border: 4px #1e90ff solid;
+    background-color: rgba(30, 144, 255, 0.2);
+  }
+  
+  .humidity-box .icon {
+    color: #1e90ff;
+  }
+  
+  .humidity-box .label {
+    font-weight: bold;
+    color: #1e90ff;
+  }
+  
+  /* Gas level box styles */
+  .gas-box {
+    border: 4px #32cd32 solid;
+    background-color: rgba(50, 205, 50, 0.2);
+  }
+  
+  .gas-box .icon {
+    color: #32cd32;
+  }
+  
+  .gas-box .label {
+    font-weight: bold;
+    color: #32cd32;
+  }
+  
+  /* Pressure box styles */
+  .pressure-box {
+    border: 4px #8a2be2 solid;
+    background-color: rgba(138, 43, 226, 0.2);
+  }
+  
+  .pressure-box .icon {
+    color: #8a2be2;
+  }
+  
+  .pressure-box .label {
+    font-weight: bold;
+    color: #8a2be2;
+  }
+  
+  /* Rain box styles */
+  .rain-box {
+    border: 4px #4682b4 solid;
+    background-color: rgba(70, 130, 180, 0.2);
+  }
+  
+  .rain-box .icon {
+    color: #4682b4;
+  }
+  
+  .rain-box .label {
+    font-weight: bold;
+    color: #4682b4;
+  }
+  
+  /* Day/Night box styles */
+  .day-box {
+    border: 4px #ffd700 solid;
+    background-color: rgba(255, 223, 0, 0.2);
+  }
+  
+  .day-box .icon {
+    color: #ffd700;
+  }
+  
+  .day-box .label {
+    font-weight: bold;
+    color: #ffd700;
+  }
+  
+  .night-box {
+    border: 4px #000 solid;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .night-box .icon {
+    color: #000;
+  }
+  
+  .night-box .label {
+    font-weight: bold;
+    color: #000;
+  }
+
+.icon {
+    font-size: 24px;
+    color: #555;
+}
+
+.label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.data {
+    font-size: 24px;
+    color: #555;
+}
+
+.simple-box {
+    display: flex;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    overflow: hidden; /* To keep the inner boxes contained within rounded borders */
+}
+
+.simple-box .box-section {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.simple-box .box-section:first-child {
+    flex-basis: 30%;
+    border-right: 2px solid #000; /* Add a dividing line between the two sections */
+}
+
+.simple-box .box-section:last-child {
+    flex-basis: 70%; /* Wider width for the right section */
+    color: #555;
+    text-align: center;
+}
+
+
+.simple-header {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+
+.simple-data {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+}
+.simple-data {
+    line-height: 1.5;
+    text-align: left;
+    /* font-size: 14px; */
+}
+
+@media (max-width: 1024px) {
+    .data{
+        font-size: 22px;
+    }
+}
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .info-box {
+      height: 120px; /* Smaller box size for smaller screens */
+    }
+    .dashboard-container {
+        padding: 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .graph-placeholder {
+        height: 200px; /* Smaller chart height for tablets */
+        margin-bottom: 20px;
+    }
+
+    /* Adjust row to stack columns on smaller screens */
+    .row > .col-lg-6 {
+        flex: 0 0 100%; /* Full width for columns on tablet */
+        max-width: 100%;
+    }
+}
+
+
+.dashboard-container {
+  background: #fff;
+}
+
+.info-card {
+  border-radius: 15px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.info-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+.info-card .icon {
+  color: #333;
+}
+
+.temperature-box .icon { color: #ff4500; }
+.humidity-box .icon { color: #1e90ff; }
+.rain-box .icon { color: #4682b4; }
+.ldr-box .icon { color: #daa520; }
+
+.graph-placeholder {
+  background: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 15px;
+  padding: 15px;
+}

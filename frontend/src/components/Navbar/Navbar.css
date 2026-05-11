@@ -1,0 +1,84 @@
+.navbar1 {
+  background-color: #bcffa727;
+  padding: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.logo-container {
+  background-image: url("../../assets/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+  transform: scale(1.3);
+  transform-origin: left;
+}
+
+.climacare {
+  font-size: 23px;
+  color: #00873e;
+  font-weight: bold;
+}
+
+.signupbtn {
+  /* background-color: #7E57C2; */
+  background-color: #00c48c;
+  border: none;
+  padding: 9px;
+  border-radius: 10px;
+  font-weight: 500;
+  color: black;
+}
+
+.contact-sales-btn {
+  /* background-color: #E0F7EF !important; */
+  background-color: #c9f6e6 !important;
+  font-weight: 500 !important;
+  color: #00873e !important;
+  border-radius: 12px !important;
+  padding: 9px 15px !important;
+  border: none !important;
+  font-size: 18px !important;
+}
+
+.sign-up-btn {
+  /* background-color: #00C48C !important; */
+  background-color: #00ca86 !important;
+  font-weight: 650 !important;
+  color: #212227 !important;
+  border-radius: 12px !important;
+  padding: 8px 15px !important;
+  border: none !important;
+  font-size: 18px !important;
+}
+
+/* Adjustments for mobile view */
+@media (max-width: 991px) {
+  .sign-up-btn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px 0;
+    border-radius: 15px;
+    font-size: larger !important;
+  }
+  .setting-btn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px 0;
+    border-radius: 15px;
+    /* font-size: large !important; */
+  }
+  .contact-sales-btn {
+    transform: scale(0.9);
+    margin-left: auto; /* Pushes the button to the right */
+  }
+  .logo-container {
+    transform: scale(1.2);
+    margin-right: 10px;
+  }
+  .climacare {
+    font-size: 20px;
+  }
+}
